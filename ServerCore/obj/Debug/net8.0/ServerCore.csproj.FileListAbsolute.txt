@@ -1,6 +1,4 @@
-C:\Rookiss\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.exe
 C:\Rookiss\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.deps.json
-C:\Rookiss\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.runtimeconfig.json
 C:\Rookiss\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.dll
 C:\Rookiss\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.pdb
 C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,13 +8,7 @@ C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.csproj.CoreCompileI
 C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.dll
 C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\refint\ServerCore.dll
 C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.pdb
-C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.genruntimeconfig.cache
 C:\Rookiss\GameServer\ServerCore\obj\Debug\net8.0\ref\ServerCore.dll
-E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.exe
-E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.deps.json
-E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.runtimeconfig.json
-E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.dll
-E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.pdb
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.AssemblyInfoInputs.cache
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.AssemblyInfo.cs
@@ -25,5 +17,7 @@ E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.sourcelink
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.dll
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\refint\ServerCore.dll
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.pdb
-E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ServerCore.genruntimeconfig.cache
+E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.deps.json
+E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.dll
+E:\server-workspace\GameServer\ServerCore\bin\Debug\net8.0\ServerCore.pdb
 E:\server-workspace\GameServer\ServerCore\obj\Debug\net8.0\ref\ServerCore.dll
