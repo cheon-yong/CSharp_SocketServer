@@ -1,0 +1,14 @@
+C:\Rookiss\GameServer\DummyClient\bin\Debug\net8.0\DummyClient.exe
+C:\Rookiss\GameServer\DummyClient\bin\Debug\net8.0\DummyClient.deps.json
+C:\Rookiss\GameServer\DummyClient\bin\Debug\net8.0\DummyClient.runtimeconfig.json
+C:\Rookiss\GameServer\DummyClient\bin\Debug\net8.0\DummyClient.dll
+C:\Rookiss\GameServer\DummyClient\bin\Debug\net8.0\DummyClient.pdb
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.AssemblyInfoInputs.cache
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.AssemblyInfo.cs
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.csproj.CoreCompileInputs.cache
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.dll
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\refint\DummyClient.dll
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.pdb
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\DummyClient.genruntimeconfig.cache
+C:\Rookiss\GameServer\DummyClient\obj\Debug\net8.0\ref\DummyClient.dll

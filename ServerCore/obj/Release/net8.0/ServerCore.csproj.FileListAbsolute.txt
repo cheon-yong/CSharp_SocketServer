@@ -1,0 +1,14 @@
+C:\Rookiss\GameServer\ServerCore\bin\Release\net8.0\ServerCore.exe
+C:\Rookiss\GameServer\ServerCore\bin\Release\net8.0\ServerCore.deps.json
+C:\Rookiss\GameServer\ServerCore\bin\Release\net8.0\ServerCore.runtimeconfig.json
+C:\Rookiss\GameServer\ServerCore\bin\Release\net8.0\ServerCore.dll
+C:\Rookiss\GameServer\ServerCore\bin\Release\net8.0\ServerCore.pdb
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.AssemblyInfoInputs.cache
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.AssemblyInfo.cs
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.csproj.CoreCompileInputs.cache
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.dll
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\refint\ServerCore.dll
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.pdb
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ServerCore.genruntimeconfig.cache
+C:\Rookiss\GameServer\ServerCore\obj\Release\net8.0\ref\ServerCore.dll
