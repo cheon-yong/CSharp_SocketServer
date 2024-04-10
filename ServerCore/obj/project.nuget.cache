@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ci6jc3/jTYgfoNmYA3aovHGk2Rh9TFeYYU4bLJ97KUHvXc714I0D1y7nErWIY2+hbIH+A5vSFyqpP1DqOFRE0w==",
+  "dgSpecHash": "zQLT/KzkXyEcVFuLURwJgFfWrgQol3vQkxGoPN4sqJziEs/uKxrwkcjaYSqop0YIIiIS1sVvVuZt3VynG2JfMA==",
   "success": true,
-  "projectFilePath": "C:\\Rookiss\\GameServer\\ServerCore\\ServerCore.csproj",
+  "projectFilePath": "E:\\server-workspace\\GameServer\\ServerCore\\ServerCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
