@@ -11,4 +11,18 @@
     <ProjectReference Include="..\ServerCore\ServerCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Protocol\Schema\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Protocol\Enum.proto" Link="Protocol\Schema\Enum.proto" />
+    <None Include="..\Protocol\Protocol.proto" Link="Protocol\Schema\Protocol.proto" />
+    <None Include="..\Protocol\Struct.proto" Link="Protocol\Schema\Struct.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.26.1" />
+  </ItemGroup>
+
 </Project>

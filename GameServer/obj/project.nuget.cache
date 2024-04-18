@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Kv00CLqpTiL1+T6ZE5Pn9myR4puUtuFfP6dzfjUvy0qOxYzhcXacPQNGjazaA/mwPHPUZ1ujtWDalx2A5LjqVA==",
+  "dgSpecHash": "/AGciuSi0iXxxNQnNEc/LGwwjJzYihmhoqXlLWFRdmLLhl2Cm9kvydpO+HmWO3+pMJ0CaWCqMBQtcj/tDTsohg==",
   "success": true,
-  "projectFilePath": "E:\\server-workspace\\GameServer\\GameServer\\GameServer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Rookiss\\GameServer\\GameServer\\GameServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rooki\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512"
+  ],
   "logs": []
 }

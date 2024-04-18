@@ -53,7 +53,6 @@ namespace ServerCore
 
 		Queue<ArraySegment<byte>> _sendQueue = new Queue<ArraySegment<byte>>();
 		List<ArraySegment<byte>> _pendingList = new List<ArraySegment<byte>>();
-
 		SocketAsyncEventArgs _sendArgs = new SocketAsyncEventArgs();
 		SocketAsyncEventArgs _recvArgs = new SocketAsyncEventArgs();
 

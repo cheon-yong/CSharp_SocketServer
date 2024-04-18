@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Protocol;
+option csharp_namespace = "Google.Protobuf.Protocol";
+
+enum CreatureState {
+	CREATURE_STATE_IDLE = 0;
+	CREATURE_STATE_MOVING = 1;
+	CREATURE_STATE_SKILL = 2;
+	CREATURE_STATE_DEAD = 3;
+}

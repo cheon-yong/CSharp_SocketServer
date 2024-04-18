@@ -1,44 +1,60 @@
-﻿using ServerCore;
+﻿using Google.Protobuf;
+using Google.Protobuf.Protocol;
+using ServerCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace GameServer
 {
-	class Packet
-	{
-		public ushort size;
-		public ushort packetId;
-	}
-
-	class PlayerInfoReq : Packet
-	{
-		public long playerId;
-	}
-
-	class PlayerInfoOk : Packet
-	{
-		public int hp;
-		public int attack;
-	}
-
-	public enum PacketID
-	{
-		PlayerInfoReq = 1,
-		PlayerInfoOk = 2,
-	}
+	
 
 	public class ClientSession : PacketSession
 	{
+		PlayerInfo playerInfo = new PlayerInfo();
+
+
 		public override void OnConnected(EndPoint endPoint)
 		{
 			Console.WriteLine($"OnConnected : {endPoint}");
+
+			S_Test test = new S_Test();
+			test.Hp = 10;
+			test.Attack = 1;
+			test.State = CreatureState.Moving;
+			test.PlayerInfo = playerInfo;
+
+			var ar = new ArraySegment<byte>(MakeSendBuffer(test));
+			OnRecvPacket(ar);
+
+			Send(test);
+
 			// TEMP
 			Thread.Sleep(5000);
 			Disconnect();
+		}
+
+		public void Send(IMessage packet)
+		{
+			Send(new ArraySegment<byte>(MakeSendBuffer(packet)));
+		}
+
+		public static byte[] MakeSendBuffer(IMessage packet)
+		{
+			// 2 : size
+			// 2 : packetID
+			MsgId msgId = (MsgId)Enum.Parse(typeof(MsgId), packet.Descriptor.Name);
+			ushort size = (ushort)packet.CalculateSize();
+
+			byte[] sendBuffer = new byte[size + 4];
+			Array.Copy(BitConverter.GetBytes((ushort)(size + 4)), 0, sendBuffer, 0, sizeof(ushort));
+			Array.Copy(BitConverter.GetBytes((ushort)msgId), 0, sendBuffer, 2, sizeof(ushort));
+			Array.Copy(packet.ToByteArray(), 0, sendBuffer, 4, size);
+			return sendBuffer;
 		}
 
 		public override void OnDisconnected(EndPoint endPoint)
@@ -48,36 +64,7 @@ namespace GameServer
 
 		public override void OnRecvPacket(ArraySegment<byte> buffer)
 		{
-			int pos = 0;
-
-			ushort size = BitConverter.ToUInt16(buffer.Array, buffer.Offset);
-			pos += 2;
-			ushort id = BitConverter.ToUInt16(buffer.Array, buffer.Offset + pos);
-			pos += 2;
-
-			// TODO
-			switch ((PacketID)id)
-			{
-				case PacketID.PlayerInfoReq:
-					{
-						long playerId = BitConverter.ToInt64(buffer.Array, buffer.Offset + pos);
-						pos += 8;
-					}
-					break;
-				case PacketID.PlayerInfoOk:
-					{
-						int hp = BitConverter.ToInt32(buffer.Array, buffer.Offset + pos);
-						pos += 4;
-						int attack = BitConverter.ToInt32(buffer.Array, buffer.Offset + pos);
-						pos += 4;
-					}
-					//Handle_PlayerInfoOk();
-					break;
-				default:
-					break;
-			}
-
-			Console.WriteLine($"RecvPacketId: {id}, Size {size}");
+			PacketManager.Instance.OnRecvPacket(this, buffer);
 		}
 
 		public override void OnSend(int numOfBytes)

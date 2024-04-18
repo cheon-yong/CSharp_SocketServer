@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\server-workspace\\GameServer\\DummyClient\\DummyClient.csproj": {}
+    "C:\\Rookiss\\GameServer\\DummyClient\\DummyClient.csproj": {}
   },
   "projects": {
-    "E:\\server-workspace\\GameServer\\DummyClient\\DummyClient.csproj": {
+    "C:\\Rookiss\\GameServer\\DummyClient\\DummyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\server-workspace\\GameServer\\DummyClient\\DummyClient.csproj",
+        "projectUniqueName": "C:\\Rookiss\\GameServer\\DummyClient\\DummyClient.csproj",
         "projectName": "DummyClient",
-        "projectPath": "E:\\server-workspace\\GameServer\\DummyClient\\DummyClient.csproj",
-        "packagesPath": "C:\\Users\\yes13\\.nuget\\packages\\",
-        "outputPath": "E:\\server-workspace\\GameServer\\DummyClient\\obj\\",
+        "projectPath": "C:\\Rookiss\\GameServer\\DummyClient\\DummyClient.csproj",
+        "packagesPath": "C:\\Users\\rooki\\.nuget\\packages\\",
+        "outputPath": "C:\\Rookiss\\GameServer\\DummyClient\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yes13\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rooki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\server-workspace\\GameServer\\ServerCore\\ServerCore.csproj": {
-                "projectPath": "E:\\server-workspace\\GameServer\\ServerCore\\ServerCore.csproj"
+              "C:\\Rookiss\\GameServer\\ServerCore\\ServerCore.csproj": {
+                "projectPath": "C:\\Rookiss\\GameServer\\ServerCore\\ServerCore.csproj"
               }
             }
           }
@@ -42,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,25 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\server-workspace\\GameServer\\ServerCore\\ServerCore.csproj": {
+    "C:\\Rookiss\\GameServer\\ServerCore\\ServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\server-workspace\\GameServer\\ServerCore\\ServerCore.csproj",
+        "projectUniqueName": "C:\\Rookiss\\GameServer\\ServerCore\\ServerCore.csproj",
         "projectName": "ServerCore",
-        "projectPath": "E:\\server-workspace\\GameServer\\ServerCore\\ServerCore.csproj",
-        "packagesPath": "C:\\Users\\yes13\\.nuget\\packages\\",
-        "outputPath": "E:\\server-workspace\\GameServer\\ServerCore\\obj\\",
+        "projectPath": "C:\\Rookiss\\GameServer\\ServerCore\\ServerCore.csproj",
+        "packagesPath": "C:\\Users\\rooki\\.nuget\\packages\\",
+        "outputPath": "C:\\Rookiss\\GameServer\\ServerCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yes13\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rooki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,11 +93,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -132,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

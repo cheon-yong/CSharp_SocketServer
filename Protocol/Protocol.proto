@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Protocol;
+option csharp_namespace = "Google.Protobuf.Protocol";
+
+import public "Enum.proto";
+import public "Struct.proto";
+
+message S_Test {
+	int32 hp = 1;
+	int32 attack = 2;
+	CreatureState state = 3;
+	PlayerInfo playerInfo = 4;
+}
+
+
+message S_HelloWorld {
+}

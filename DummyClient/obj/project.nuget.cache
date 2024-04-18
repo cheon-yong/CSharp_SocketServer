@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SIpJm4G4bkCvXu9KboqGVp3VPCOIEzaleVK2zZQU6HHowTUgJ1wrk7EwhTwIx6lTNtDgoiXiv7yMbzZPSyjgSg==",
+  "dgSpecHash": "0bWfSWeqYk7l5S6Ur+y4In2xKmSeBOpwiw5GdgYK5WPxbXrkdjtFIuZJt2kJAuruGT4DMWmYdyQ6vuRTdsBaCQ==",
   "success": true,
-  "projectFilePath": "E:\\server-workspace\\GameServer\\DummyClient\\DummyClient.csproj",
+  "projectFilePath": "C:\\Rookiss\\GameServer\\DummyClient\\DummyClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
